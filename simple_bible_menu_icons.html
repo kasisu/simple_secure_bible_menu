@@ -28,24 +28,17 @@ body{
     position:relative;
     display:flex;
     align-items:flex-end;
-
     height:180px;
     margin-bottom:18px;
     padding:24px;
-
     border-radius:24px;
-
     text-decoration:none;
     color:#fff;
-
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-
     overflow:hidden;
-
     box-shadow:0 6px 18px rgba(0,0,0,0.15);
-
     transition:0.2s ease;
 }
 
@@ -55,6 +48,43 @@ body{
 
 .menu-item:active{
     transform:scale(0.98);
+}
+
+/* 背景画像 */
+.stress{
+    background-image:
+    url("images/stress.png"),
+    url("https://drive.google.com/uc?export=view&id=1ewyVFSOW0J29Y7m-9Ow2GtqbD9oTZxmk");
+}
+
+.family{
+    background-image:
+    url("images/family.png"),
+    url("https://drive.google.com/uc?export=view&id=1QyGMIJNsOySIB1GZTGMJD4wvSP3_2tFP");
+}
+
+.young{
+    background-image:
+    url("images/young.png"),
+    url("https://drive.google.com/uc?export=view&id=1C-f_V2eibWrB5bWGgoc5UIdVberUIzr9");
+}
+
+.children{
+    background-image:
+    url("images/children.png"),
+    url("https://drive.google.com/uc?export=view&id=1SFPjpAWnAwczoH3tw5yDdEIXGctVO4KZ");
+}
+
+.god{
+    background-image:
+    url("images/god.png"),
+    url("https://drive.google.com/uc?export=view&id=1ry4mV1_HUCzwmAZ2l2Kyc9CaeZT54LJZ");
+}
+
+.science{
+    background-image:
+    url("images/science.png"),
+    url("https://drive.google.com/uc?export=view&id=1ZXS3CNHr244PYXanGCZbConMlqTGZcmN");
 }
 
 /* 暗いオーバーレイ */
@@ -72,11 +102,9 @@ body{
 .title{
     position:relative;
     z-index:1;
-
     font-size:2rem;
     font-weight:700;
     line-height:1.2;
-
     text-shadow:0 2px 6px rgba(0,0,0,0.5);
 }
 
@@ -85,7 +113,6 @@ body{
     top:18px;
     right:18px;
     z-index:1;
-
     font-size:1.4rem;
     color:#fff;
 }
@@ -95,11 +122,8 @@ body{
     bottom:0;
     left:0;
     width:100%;
-
     background:rgba(20,20,20,0.92);
-
     padding:16px;
-
     display:flex;
     justify-content:center;
 }
@@ -112,7 +136,6 @@ body{
     border-radius:999px;
 }
 
-/* モバイル */
 @media(max-width:480px){
     .menu-item{
         height:150px;
@@ -128,68 +151,50 @@ body{
 <body>
 <div class="container">
 
-<!-- ストレスと不安 -->
 <a href="https://www.jw.org/ja/聖書の教え/ストレスと不安/"
-   class="menu-item"
-   style="background-image:url('images/stress.png'), url('https://drive.google.com/uc?export=view&id=1ewyVFSOW0J29Y7m-9Ow2GtqbD9oTZxmk');"
+   class="menu-item stress"
    target="_blank"
    rel="noopener noreferrer external">
-
     <div class="title">ストレスと不安</div>
     <div class="external">↗</div>
 </a>
 
-<!-- 結婚と子育て -->
 <a href="https://www.jw.org/ja/聖書の教え/結婚-子育て/"
-   class="menu-item"
-   style="background-image:url('images/family.png'), url('https://drive.google.com/uc?export=view&id=1QyGMIJNsOySIB1GZTGMJD4wvSP3_2tFP');"
+   class="menu-item family"
    target="_blank"
    rel="noopener noreferrer external">
-
     <div class="title">結婚と子育て</div>
     <div class="external">↗</div>
 </a>
 
-<!-- 若い人 -->
 <a href="https://www.jw.org/ja/聖書の教え/若い人/"
-   class="menu-item"
-   style="background-image:url('images/young.png'), url('https://drive.google.com/uc?export=view&id=1C-f_V2eibWrB5bWGgoc5UIdVberUIzr9');"
+   class="menu-item young"
    target="_blank"
    rel="noopener noreferrer external">
-
     <div class="title">若い人</div>
     <div class="external">↗</div>
 </a>
 
-<!-- 子ども -->
 <a href="https://www.jw.org/ja/聖書の教え/子ども/"
-   class="menu-item"
-   style="background-image:url('images/children.png'), url('https://drive.google.com/uc?export=view&id=1SFPjpAWnAwczoH3tw5yDdEIXGctVO4KZ');"
+   class="menu-item children"
    target="_blank"
    rel="noopener noreferrer external">
-
     <div class="title">子ども</div>
     <div class="external">↗</div>
 </a>
 
-<!-- 神を知る -->
 <a href="https://www.jw.org/ja/聖書の教え/神を知る/"
-   class="menu-item"
-   style="background-image:url('images/god.png'), url('https://drive.google.com/uc?export=view&id=1ry4mV1_HUCzwmAZ2l2Kyc9CaeZT54LJZ');"
+   class="menu-item god"
    target="_blank"
    rel="noopener noreferrer external">
-
     <div class="title">神を知る</div>
     <div class="external">↗</div>
 </a>
 
-<!-- 科学と聖書 -->
 <a href="https://www.jw.org/ja/聖書の教え/科学/"
-   class="menu-item"
-   style="background-image:url('images/science.png'), url('https://drive.google.com/uc?export=view&id=1ZXS3CNHr244PYXanGCZbConMlqTGZcmN');"
+   class="menu-item science"
    target="_blank"
    rel="noopener noreferrer external">
-
     <div class="title">科学と聖書</div>
     <div class="external">↗</div>
 </a>
